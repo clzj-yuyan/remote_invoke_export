@@ -1,9 +1,8 @@
 package com.yuyan.pojo;
 
 /**
- * @author: Seven.wk
+ * @author: yuyan
  * @description: 数据返回类
- * @create: 2018/07/04
  */
 public class ResultVO<T> {
 
