@@ -84,7 +84,7 @@ public class RemoteInvokeExportExcelTest {
     private void exportExcel(List<FoodCountInfoDO> dataSource) {
         // 导出路径
         String fileName = RemoteInvokeExportExcelTest.class.getResource("/").getPath()
-                + "2.1.2菜品销售排行表 20200501--20201130" + System.currentTimeMillis() + ".xlsx";
+                + "店铺销售排行表 20200501--20201130" + System.currentTimeMillis() + ".xlsx";
         ExcelWriter excelWriter = null;
         try {
             excelWriter = EasyExcel.write(fileName, FoodCountInfoDO.class).build();
